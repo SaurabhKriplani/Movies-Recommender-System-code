@@ -1,4 +1,4 @@
-*.pkl
+similarity.pkl
 .venv/
 __pycache__/
 .ipynb_checkpoints/
