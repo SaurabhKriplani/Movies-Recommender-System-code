@@ -1,3 +1,10 @@
+import os
+import gdown
+
+if not os.path.exists("similarity.pkl"):
+    url = "https://drive.google.com/uc?id=1yawrT4i5lK4QFSzGRY2IzjuRmRzwHAGL"
+    gdown.download(url, "similarity.pkl", quiet=False)
+
 import streamlit as st
 import pickle
 import requests
